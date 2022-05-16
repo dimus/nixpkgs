@@ -593,6 +593,8 @@ with pkgs;
   flare-floss = callPackage ../tools/security/flare-floss { };
 
   prefer-remote-fetch = import ../build-support/prefer-remote-fetch;
+    
+  gnparser = callPackage ../applications/science/biology/gnparser { };
 
   global-platform-pro = callPackage ../development/tools/global-platform-pro { };
 
